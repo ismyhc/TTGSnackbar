@@ -107,7 +107,6 @@
 				BFA489812169F2D1009A2265 /* Frameworks */,
 				BFA489822169F2D1009A2265 /* Resources */,
 				F09FFCD405F0B648BEA8DF5B /* [CP] Embed Pods Frameworks */,
-				368C61963DBEAF588EACF11F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,21 +163,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		368C61963DBEAF588EACF11F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTGSnackbarOCExample/Pods-TTGSnackbarOCExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D8F6DCE576478CD95344A455 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,7 +187,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TTGSnackbarOCExample/Pods-TTGSnackbarOCExample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TTGSnackbarOCExample/Pods-TTGSnackbarOCExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -212,7 +196,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTGSnackbarOCExample/Pods-TTGSnackbarOCExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTGSnackbarOCExample/Pods-TTGSnackbarOCExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
