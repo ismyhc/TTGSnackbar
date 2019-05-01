@@ -107,6 +107,7 @@
 				BFA489812169F2D1009A2265 /* Frameworks */,
 				BFA489822169F2D1009A2265 /* Resources */,
 				F09FFCD405F0B648BEA8DF5B /* [CP] Embed Pods Frameworks */,
+				368C61963DBEAF588EACF11F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,7 +124,7 @@
 		BFA4897C2169F2D1009A2265 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = tutuge;
 				TargetAttributes = {
 					BFA489832169F2D1009A2265 = {
@@ -163,6 +164,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		368C61963DBEAF588EACF11F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTGSnackbarOCExample/Pods-TTGSnackbarOCExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D8F6DCE576478CD95344A455 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,7 +366,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06BC0FA7DE8E9B05F013377F /* Pods-TTGSnackbarOCExample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TTGSnackbarOCExample/Info.plist;
@@ -369,7 +387,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A558BD0718E021EAF8F28B49 /* Pods-TTGSnackbarOCExample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TTGSnackbarOCExample/Info.plist;
